@@ -1,0 +1,6 @@
+1. Deleted README.md, modified feature.txt, and created temp.txt.
+2. Committed the broken state with message "Accidentally broke the project".
+3. Used git reflog to identify the last good commit before the damage.
+4. Restored the repository using git reset --hard HEAD~1.
+5. Verified README.md was restored and temporary files were removed.
+6. Repository is now back to a clean and stable state.
